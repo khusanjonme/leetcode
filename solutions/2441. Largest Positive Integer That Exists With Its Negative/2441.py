@@ -4,6 +4,3 @@ def find_max_k(nums: list[int]) -> int:
         if -num in nums:
             manuals.append(num)
     return max(manuals, default=-1)
-
-
-print()
